@@ -1,0 +1,259 @@
+/* nav start*/
+.nav-container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.logo-container {
+    display: flex;
+
+    width: 50%;
+}
+.nav-item-container,
+a {
+    display: flex;
+
+    gap: 50px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    /* nav end...... */
+}
+.btn {
+    width: 140px;
+}
+
+/* banner container start */
+
+.banner-container {
+    height: 500px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.banner-img {
+    width: 50%;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.banner-text {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-img img {
+    width: 100%;
+
+    height: 100%;
+}
+.banner-text h1 {
+    background-image: linear-gradient(to bottom, red, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+
+.banner-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 47, 116);
+    border: none;
+    color: white;
+}
+.abc {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+/* banner content end here  */
+
+/* gamming images container start here */
+
+.online-games-text-container {
+    display: grid;
+    margin: 50px auto 0px;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.online-games-text-container h2 {
+    font-family: Work Sans;
+    font-size: 30px;
+}
+.online-games-text-container p {
+    font-family: Work Sans;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+.gamming-images {
+    display: flex;
+
+    margin-right: 10px;
+}
+.gamming-images img {
+    width: 340px;
+    height: 400px;
+    width: 95%;
+    padding-left: 5px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+.video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.video-icon img {
+    width: 50px;
+    height: 50px;
+}
+.image-container:hover .video-icon img {
+    filter: brightness(1.5) hue-rotate(90deg);
+    background-color: blueviolet;
+}
+.image-container p {
+    padding: 0px 30px;
+}
+
+/* gamming imeges container end here */
+
+/* play-instantly-container start here */
+
+.play-instantly-container {
+    width: 1300px;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.play-instantly-content {
+    height: 50%;
+    height: 100%;
+    text-align: right;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.play-instantly-img img {
+    width: 50%;
+}
+.play-instantly-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.abcd {
+    width: 40%;
+}
+/* play-instantly-container end here */
+
+/* icon text content start here */
+
+.hover {
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.hover::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: blue;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.hover:hover::after {
+    transform: scaleX(1);
+}
+
+.icon-text-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+    display: flex;
+
+    align-items: center;
+}
+.icon-text-container img {
+    width: 30px;
+    height: 30px;
+}
+
+/* footer container start here */
+.footer-container {
+    height: 350px;
+    background-color: rgb(27, 27, 73);
+}
+.footer-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+
+    gap: 10px;
+}
+.footer-title img {
+    height: 45px;
+}
+.footer-title h2 {
+    font-size: larger;
+    color: white;
+}
+.support-container {
+    color: white;
+    gap: 20px;
+    padding-top: 30px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.support-container li {
+    list-style: none;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.last-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: small;
+}
