@@ -82,6 +82,11 @@ a {
     padding: 50px 0px;
 }
 
+.image-container:hover img {
+    border: 2px solid red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .online-games-text-container h2 {
     font-family: Work Sans;
     font-size: 30px;
@@ -94,7 +99,7 @@ a {
 }
 .gamming-images {
     display: flex;
-
+    gap: 20px;
     margin-right: 10px;
 }
 .gamming-images img {
@@ -125,7 +130,8 @@ a {
 }
 .image-container:hover .video-icon img {
     filter: brightness(1.5) hue-rotate(90deg);
-    background-color: blueviolet;
+
+    border: none;
 }
 .image-container p {
     padding: 0px 30px;
@@ -160,9 +166,6 @@ a {
 .abcd {
     width: 40%;
 }
-/* play-instantly-container end here */
-
-/* icon text content start here */
 
 .hover {
     width: max-content;
@@ -205,6 +208,17 @@ a {
 .icon-text-container img {
     width: 30px;
     height: 30px;
+}
+
+.icon-text-container:hover img {
+    filter: brightness(1.2);
+    transition: filter 0.3s ease-in-out;
+}
+
+.icon-text-container:hover p {
+    color: #ff0000;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
 }
 
 /* footer container start here */
